@@ -39,9 +39,59 @@ Define Class FoxFakerTest As FxuTestCase Of FxuTestCase.prg
 *========================================================================================
 	Procedure test_should_return_a_random_boolean
 		bResult = 15 && Just for mutable type from integer to bool.
-		bResult = Faker.Boolean()
-		This.MessageOut("Random Boolean is: " + TRANSFORM(bResult))
+		bResult = Faker.fakeBoolean()
+		This.MessageOut("Faker.fakeBoolean: " + Transform(bResult))
 		This.AssertTrue(Type("bResult") == "L", "LastErrorText: " + Faker.LastErrorText)
+
+
+	Procedure test_should_return_a_valid_address
+		cAddress = Faker.fakeAddress()
+		This.MessageOut("Faker.fakeAddress: " + cAddress)
+		This.AssertTrue(Len(cAddress) > 5, "LastErrorText: " + Faker.LastErrorText)
+
+*========================================================================================
+
+	Procedure test_should_return_a_random_digit_between_0_and_9
+		nResult = Faker.fakeRandomDigit()
+		This.MessageOut("Faker.randomDigit: " + Transform(nResult))
+		This.AssertTrue(Between(nResult, 0, 9), "SomeThing Went Rong")
+
+*========================================================================================
+	Procedure test_should_return_random_numbers_with_any_length_between_0_and_9
+		nResult = Faker.fakeRandomNumber()
+		This.MessageOut("Faker.fakeRandomNumber: " + Transform(nResult))
+		This.AssertTrue(Type("nResult") = "N", "Something went wrong!")
+
+*========================================================================================
+	Procedure test_should_return_random_numbers_passing_custom_length
+		nCustomLength = 3
+		nResult = Faker.fakeRandomNumber(nCustomLength)
+		This.MessageOut("Faker.fakeRandomNumber: " + Transform(nResult))
+		This.AssertTrue(Between(Int(nResult/100), 1, 9), "Something went wrong")
+
+*========================================================================================
+	Procedure test_should_return_a_random_numbers_between_custom_range
+		nLowValue  = 65
+		nHighValue = 90
+		nResult    = Faker.fakeNumberBetween(nLowValue, nHighValue)
+		This.MessageOut("Faker.fakeNumberBetween: " + Transform(nResult))
+		This.AssertTrue(Between(nResult, nLowValue, nHighValue), "Something went Wrong")
+
+*========================================================================================
+	PROCEDURE test_should_return_a_random_letter_in_lowercase
+		cLetter = Faker.fakeRandomLetter()
+		This.MessageOut("Faker.fakeRandomLetter: " + cLetter)
+		This.AssertTrue(ISALPHA(cLetter), "The result is not a string")
+
+*========================================================================================
+	PROCEDURE test_should_return_a_valid_word
+		cWord = Faker.fakeWord()
+		This.MessageOut("Faker.fakeWord: " + cWord)
+		This.AssertTrue(!EMPTY(cWord), "Word is not a valid string")
 		
 *========================================================================================
+	PROCEDURE test_should_return_a_list_of_words_delimited_by_colon
+		cWords = Faker.fakeWords(3)
+		This.MessageOut("cWords: " + cWords)
+		This.AssertTrue(getwordcount(cWords, ",") = 3, "Something went wrong")
 Enddefine
