@@ -23,16 +23,17 @@
 *.FXP
 
 # Ignore database and related files.
-*.dbf
-*.DBF
+Tests/FXUResults.*
+Tests/FXUPERSIST.XML
+Tools/FxuClassFactory.dbf
+faker.dbf
+FAKER.DBF
 *.cdx
 *.CDX
 *.dbc
 *.DBC
 *.dct
 *.DCT
-*.fpt
-*.FPT
 *.dcx
 *.DCX
 *.irt
