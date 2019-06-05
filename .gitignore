@@ -1,0 +1,51 @@
+# Ignore project
+*.pjx
+*.PJX
+*.pjt
+*.PJT
+
+# Ignore compiled files
+*.scx
+*.sct
+*.SCX
+*.SCT
+*.mnt
+*.MNT
+*.mnx
+*.MNX
+*.mpr
+*.MPR
+*.vct
+*.VCT
+*.vcx
+*.VCX
+*.fxp
+*.FXP
+
+# Ignore database and related files.
+*.dbf
+*.DBF
+*.cdx
+*.CDX
+*.dbc
+*.DBC
+*.dct
+*.DCT
+*.fpt
+*.FPT
+*.dcx
+*.DCX
+*.irt
+*.IRT
+*.tbk
+*.TBK
+
+# Ignore Reports
+*.frx
+*.FRX
+*.frt
+*.FRT
+# Temporary Files
+*.bak
+*.BAK
+*.exe
