@@ -1,8 +1,8 @@
 # FoxFaker
 
-Faker is a VFP library that generates fake data for you. If your're working using n-tier architecture, MVC, or any other technique where you isolate business logic and data acces, then you probably need to spend some time by filling your persistence data to stress test it. Here is when Faker comes to the rescue.
+FoxFaker is a Visual FoxPro Class library that generates fake data for you. If your're working using n-tier architecture, MVC, or any other technique where you isolate business logic and data acces, then you probably need to spend some time by filling your persistence data to stress test it. Here is when Faker comes to the rescue.
 
-Faker is heavily inspired by PHP's [Faker](https://github.com/fzaninotto/Faker).
+FoxFaker is heavily inspired by PHP's [Faker](https://github.com/fzaninotto/Faker).
 
 FoxFaker works quite good on VFP >= 7
 
