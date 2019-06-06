@@ -34,12 +34,12 @@
 ## Installation
 
 ```
-Just copy FoxFaker.prg, FakerFactory.dbf, FakerFactory.fpt files anywhere into your project path folder.
+Just copy tha FoxFaker.prg and FactoryBase.txt files anywhere into your project path folder.
 ```
 
 ## Basic Usage
 
-Use a **Public** Variable or a **_Screen Property** to instantiate `FoxFaker.prg`.
+Use a **Public** Variable or a **_Screen Property** to instantiate `FoxFaker.prg` object.
 
 ```xBase
 Public Faker
