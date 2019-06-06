@@ -43,10 +43,10 @@ Use a **Public** Variable or a **_Screen Property** to instantiate `FoxFaker.prg
 
 ```xBase
 Public Faker
-&& require the FoxFaker Prg
+// require the FoxFaker Prg
 Set Procedure to "FoxFaker" Additive
 
-&& Instantiate FoxFaker Object
+# Instantiate FoxFaker Object
 Faker = NewObject(FoxFaker, "FoxFaker.prg")
 
 && generate data by accessing properties. All methods are written using 'fake' prefix.
