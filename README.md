@@ -72,14 +72,14 @@ Each of the generator properties (like `name`, `address`, and `lorem`) are calle
     fakeRandomLetter()          		// 'i'
 ```
 ### `FoxFaker\Provider\Lorem`
-
+```xBase
     fakeWord()                            // 'aut'
     fakeWords(tnHowMany)                  // Laborum vero a officia id corporis.
     fakeSentence(tnHowMany)  		  // 'Sit vitae voluptas sint non voluptates.'
     fakeText(tnLength)                    // 'Fuga totam reiciendis qui architecto fugiat nemo.'
-
+```
 ### `FoxFaker\Provider\en_US\Person`
-
+```xBase
     fakeTitle(tcGender = null|'male'|'female') 	   // 'Ms.'
     fakeTitleMale()                                // 'Mr.'
     fakeTitleFemale()                              // 'Ms.'
@@ -89,9 +89,9 @@ Each of the generator properties (like `name`, `address`, and `lorem`) are calle
     fakeFirstNameMale()                            // 'Maynard'
     fakeFirstNameFemale()                          // 'Rachel'
     fakeLastName()                                 // 'Zulauf'
-
+```
 ### `FoxFaker\Provider\en_US\Address`
-  
+```xBase  
     fakeSecondaryAddress()	// 'Suite 961'
     fakeState()			// 'NewMexico'    
     fakeCity()			// 'West Judge'
@@ -102,18 +102,18 @@ Each of the generator properties (like `name`, `address`, and `lorem`) are calle
     fakeCountry()		// 'Falkland Islands (Malvinas)'
     fakeLatitude()		// 77.147489
     fakeLongitude()		// 86.211205
-
+```
 ### `FoxFaker\Provider\en_US\PhoneNumber`
 
     fakePhoneNumber()           // '201-886-0269 x3767'
 
 ### `FoxFaker\Provider\en_US\Company`
-
+```xBase
     fakeCompany()		// 'Bogan-Treutel'
     fakeJobTitle()		// 'Cashier'
-
+```
 ### `FoxFaker\Provider\DateTime`
-
+```xBase
     fakeDate()		// '1979-06-09'
     fakeTime() 		// '20:49:42'
     fakeAmPm()          // 'pm'
@@ -122,9 +122,9 @@ Each of the generator properties (like `name`, `address`, and `lorem`) are calle
     fakeMonth()         // '06'
     fakeMonthName()     // 'January'
     fakeYear()          // '1993'
-
+```
 ### `FoxFaker\Provider\Internet`
-
+```xBase
     fakeEmail()               // 'tkshlerin@collins.com'
     fakeSafeEmail()           // 'king.alford@example.org'
     fakeUserName()            // 'wade55'
@@ -134,41 +134,41 @@ Each of the generator properties (like `name`, `address`, and `lorem`) are calle
     fakeLocalIpv4()           // '10.242.58.8'
     fakeIpv6()                // '8e65:933d:22ee:a232:f1c1:2741:1f10:117c'
     fakeMacAddress()          // '43:85:B7:08:10:CA'
-
+```
 ### `FoxFaker\Provider\Payment`
-
+```xBase
     fakeCreditCardType()          // 'MasterCard'
     fakeCreditCardNumber()        // '4485480221084675'
-
+```
 ### `FoxFaker\Provider\Color`
-
+```xBase
     fakeHexcolor()               // '#fa3cc2'
     fakeRgbcolor()               // '0,255,122'
     fakeColorName()              // 'Gainsbor'
-
+```
 ### `FoxFaker\Provider\File`
-
+```xBase
     fakeFileExtension()          // 'avi'
     fakeMimeType()               // 'video/x-msvideo'
-
+```
 ### `FoxFaker\Provider\Uuid`
-
+```xBase
     fakeUuid()                   // '7e57d004-2b97-0e7a-b45f-5387367791cd'
-
+```
 ### `FoxFaker\Provider\Barcode`
-
+```xBase
     fakeEan13()          // '4006381333931'
     fakeEan8()           // '73513537'
-
+```
 ### `FoxFaker\Provider\Miscellaneous`
-
+```xBase
     fakeBoolean() 	// .F.
     fakeMD5()           // 'de99a620c50f2990e87144735cd357e7'
     fakeSHA1()          // 'f08e7f04ca1a413807ebc47551a40a20a0b4de5c'
     fakeSHA256()        // '0061e4c60dac5c1d82db0135a42e00c89ae3a333e7c26485321f24348c7e98a5'
     fakeCountryCode()   // ES
     fakeCurrencyCode()  // EUR
-
+```
 ## License
 
 Faker is released under the MIT Licence.
