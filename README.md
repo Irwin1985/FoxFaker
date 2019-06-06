@@ -104,9 +104,9 @@ Each of the generator properties (like `name`, `address`, and `lorem`) are calle
     fakeLongitude()		// 86.211205
 ```
 ### `FoxFaker\Provider\en_US\PhoneNumber`
-
+```xBase
     fakePhoneNumber()           // '201-886-0269 x3767'
-
+```
 ### `FoxFaker\Provider\en_US\Company`
 ```xBase
     fakeCompany()		// 'Bogan-Treutel'
