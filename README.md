@@ -65,12 +65,12 @@ Faker = NewObject(FoxFaker, "FoxFaker.prg")
 Each of the generator properties (like `name`, `address`, and `lorem`) are called "formatters". A faker generator has many of them, packaged in "providers". Here is a list of the bundled formatters in the default locale.
 
 ### `FoxFaker\Provider\Base`
-
+```xBase
     fakeRandomDigit()             		// 9
     fakeRandomNumber(tnLength)  		// 16795371    
     fakeNumberBetween(tnLowVal, tnHighVal) 	// 1985
     fakeRandomLetter()          		// 'i'
-
+```
 ### `FoxFaker\Provider\Lorem`
 
     fakeWord()                            // 'aut'
