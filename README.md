@@ -151,16 +151,16 @@ Each of the generator properties (like `name`, `address`, and `lorem`) are calle
     fakeFileExtension()          && 'avi'
     fakeMimeType()               && 'video/x-msvideo'
 
-### `Faker\Provider\Uuid`
+### `FoxFaker\Provider\Uuid`
 
     fakeUuid()                   && '7e57d004-2b97-0e7a-b45f-5387367791cd'
 
-### `Faker\Provider\Barcode`
+### `FoxFaker\Provider\Barcode`
 
     fakeEan13()          && '4006381333931'
     fakeEan8()           && '73513537'
 
-### `Faker\Provider\Miscellaneous`
+### `FoxFaker\Provider\Miscellaneous`
 
     fakeBoolean() 	&& .F.
     fakeMD5()           && 'de99a620c50f2990e87144735cd357e7'
