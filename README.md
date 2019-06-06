@@ -47,7 +47,7 @@ Public Faker
 Set Procedure to "FoxFaker" Additive
 
 // Instantiate FoxFaker Object
-Faker = NewObject(FoxFaker, "FoxFaker.prg")
+Faker = NewObject("FoxFaker", "FoxFaker.prg")
 
 // generate data by accessing properties. All methods are written using 'fake' prefix.
 
