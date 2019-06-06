@@ -1,6 +1,6 @@
 # FoxFaker
 
-Faker is a VFP library that generates fake data for you. Whether you need to bootstrap your database, create good-looking XML documents, fill-in your persistence to stress test it, or anonymize data taken from a production service, Faker is for you.
+Faker is a VFP library that generates fake data for you. If your're working using n-tier architecture, MVC, or any other technique where you isolate business logic and data acces, then you probably need to spend some time by filling your persistence data to stress test it. Here is when Faker comes to the rescue.
 
 Faker is heavily inspired by PHP's [Data::Faker](http://search.cpan.org/~jasonk/Data-Faker-0.07/), and by ruby's [Faker](https://rubygems.org/gems/faker).
 
