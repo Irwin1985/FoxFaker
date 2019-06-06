@@ -4,9 +4,7 @@ Faker is a VFP library that generates fake data for you. Whether you need to boo
 
 Faker is heavily inspired by PHP's [Data::Faker](http://search.cpan.org/~jasonk/Data-Faker-0.07/), and by ruby's [Faker](https://rubygems.org/gems/faker).
 
-Faker requires PHP >= 5.3.3.
-
-[![Monthly Downloads](https://poser.pugx.org/fzaninotto/faker/d/monthly.png)](https://packagist.org/packages/fzaninotto/faker) [![Build Status](https://travis-ci.org/fzaninotto/Faker.svg?branch=master)](https://travis-ci.org/fzaninotto/Faker) [![SensioLabsInsight](https://insight.sensiolabs.com/projects/eceb78a9-38d4-4ad5-8b6b-b52f323e3549/mini.png)](https://insight.sensiolabs.com/projects/eceb78a9-38d4-4ad5-8b6b-b52f323e3549)
+FoxFaker works quite good on VFP >= 7
 
 # Table of Contents
 
