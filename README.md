@@ -65,21 +65,21 @@ Faker = NewObject(FoxFaker, "FoxFaker.prg")
 Each of the generator properties (like `name`, `address`, and `lorem`) are called "formatters". A faker generator has many of them, packaged in "providers". Here is a list of the bundled formatters in the default locale.
 
 ### `FoxFaker\Provider\Base`
-
+```xBase
     fakeRandomDigit()             		&& 9
     fakeRandomNumber(tnLength)  		&& 16795371    
     fakeNumberBetween(tnLowVal, tnHighVal) 	&& 1985
     fakeRandomLetter()          		&& 'i'
 
 ### `FoxFaker\Provider\Lorem`
-
+```xBase
     fakeWord()                            && 'aut'
     fakeWords(tnHowMany)                  && Laborum vero a officia id corporis.
     fakeSentence(tnHowMany)  		  && 'Sit vitae voluptas sint non voluptates.'
     fakeText(tnLength)                    && 'Fuga totam reiciendis qui architecto fugiat nemo.'
 
 ### `FoxFaker\Provider\en_US\Person`
-
+```xBase
     fakeTitle(tcGender = null|'male'|'female') 	   && 'Ms.'
     fakeTitleMale()                                && 'Mr.'
     fakeTitleFemale()                              && 'Ms.'
@@ -91,7 +91,7 @@ Each of the generator properties (like `name`, `address`, and `lorem`) are calle
     fakeLastName()                                 && 'Zulauf'
 
 ### `FoxFaker\Provider\en_US\Address`
-    
+```xBase   
     fakeSecondaryAddress()	&& 'Suite 961'
     fakeState()			&& 'NewMexico'    
     fakeCity()			&& 'West Judge'
@@ -104,16 +104,16 @@ Each of the generator properties (like `name`, `address`, and `lorem`) are calle
     fakeLongitude()		&& 86.211205
 
 ### `FoxFaker\Provider\en_US\PhoneNumber`
-
+```xBase
     fakePhoneNumber()           && '201-886-0269 x3767'
 
 ### `FoxFaker\Provider\en_US\Company`
-
+```xBase
     fakeCompany()		&& 'Bogan-Treutel'
     fakeJobTitle()		&& 'Cashier'
 
 ### `FoxFaker\Provider\DateTime`
-
+```xBase
     fakeDate()		&& '1979-06-09'
     fakeTime() 		&& '20:49:42'
     fakeAmPm()          && 'pm'
@@ -124,7 +124,7 @@ Each of the generator properties (like `name`, `address`, and `lorem`) are calle
     fakeYear()          && '1993'
 
 ### `FoxFaker\Provider\Internet`
-
+```xBase
     fakeEmail()               && 'tkshlerin@collins.com'
     fakeSafeEmail()           && 'king.alford@example.org'
     fakeUserName()            && 'wade55'
@@ -141,27 +141,27 @@ Each of the generator properties (like `name`, `address`, and `lorem`) are calle
     fakeCreditCardNumber()        && '4485480221084675'
 
 ### `FoxFaker\Provider\Color`
-
+```xBase
     fakeHexcolor()               && '#fa3cc2'
     fakeRgbcolor()               && '0,255,122'
     fakeColorName()              && 'Gainsbor'
 
 ### `FoxFaker\Provider\File`
-
+```xBase
     fakeFileExtension()          && 'avi'
     fakeMimeType()               && 'video/x-msvideo'
 
 ### `FoxFaker\Provider\Uuid`
-
+```xBase
     fakeUuid()                   && '7e57d004-2b97-0e7a-b45f-5387367791cd'
 
 ### `FoxFaker\Provider\Barcode`
-
+```xBase
     fakeEan13()          && '4006381333931'
     fakeEan8()           && '73513537'
 
 ### `FoxFaker\Provider\Miscellaneous`
-
+```xBase
     fakeBoolean() 	&& .F.
     fakeMD5()           && 'de99a620c50f2990e87144735cd357e7'
     fakeSHA1()          && 'f08e7f04ca1a413807ebc47551a40a20a0b4de5c'
