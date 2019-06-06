@@ -24,7 +24,19 @@
 
 # Ignore database and related files.
 Tests/FXUResults.*
-Tests/FXUPERSIST.XML
+Tests/*.XML
+Tests/*.xml
+Tests/*.BAK
+Tests/*.bak
+Tests/*.FXP
+Tests/*.fxp
+Tests/*.DBF
+Tests/*.dbf
+Tests/*.FPT
+Tests/*.fpt
+Tests/*.CDX
+Tests/*.cdx
+
 Tools/FxuClassFactory.dbf
 faker.dbf
 FAKER.DBF
