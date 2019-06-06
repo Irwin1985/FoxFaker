@@ -87,8 +87,7 @@ Define Class FoxFaker As Collection
 			Set Safety Off
 			lnSelect = Select()
 			Select 0
-			*Use FakerFactory Alias __fakerFactory Shared Again Noupdate
-			=Strtofile(Strconv(FILETOSTR("FactoryBase.txt"), DECODED_BASE64_BINARY), This.FactoryBase)
+			=Strtofile(Strconv(FileToStr("FactoryBase.txt"), DECODED_BASE64_BINARY), This.FactoryBase)
 			If !File(This.FactoryBase)
 				This.bWrite = .T.
 				This.LastErrorText = "Could not fetch FactoryBase Table!"
@@ -103,7 +102,6 @@ Define Class FoxFaker As Collection
 			This.bWrite = .T.
 			This.LastErrorText = loEx.Message
 		Finally
-			*Use In (Select("__fakerFactory"))
 			Select (lnSelect)
 			lcSaf = This.SafAct
 			Set Safety &lcSaf
