@@ -41,7 +41,7 @@ Just copy FoxFaker.prg, FakerFactory.dbf, FakerFactory.fpt files anywhere into y
 
 Use a **Public** Variable or a **_Screen Property** to instantiate `FoxFaker.prg`.
 
-```vfp
+```xBase
 Public Faker
 && require the FoxFaker Prg
 Set Procedure to "FoxFaker" Additive
