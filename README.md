@@ -49,7 +49,8 @@ Set Procedure to "FoxFaker" Additive
 // Instantiate FoxFaker Object
 Faker = NewObject("FoxFaker", "FoxFaker.prg")
 
-// generate data by accessing properties. All methods are written using 'fake' prefix.
+// Generate data by accessing properties. 
+// All methods are written using 'fake' as prefix (for avoiding "Function Name" conflict, when calling Faker.name())
 
 ?Faker.fakeName() 	// 'Jhon Doe'
 
