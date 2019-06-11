@@ -176,3 +176,5 @@ Each of the generator properties (like `name`, `address`, and `lorem`) are calle
 ## License
 
 Faker is released under the MIT Licence.
+
+![](Tools/vfpxbanner_small.gif)
