@@ -33,7 +33,7 @@
 - [License](#license)
 
 
-![](Tools/vfpxicon_16px.gif)## Installation
+![](Tools/vfpxicon_16px.gif) ## Installation
 
 ```
 Just copy tha FoxFaker.prg and FactoryBase.txt files anywhere into your project path folder.
