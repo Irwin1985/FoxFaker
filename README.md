@@ -1,6 +1,4 @@
-# FoxFaker
-
-![](Tools/vfpxmember_large.gif)
+# FoxFaker ![](Tools/vfpxmember_large.gif)
 
 `FoxFaker` is a Visual FoxPro Class library that generates fake data for you. If your're working using n-tier architecture, MVC, or any other technique where you isolate business logic and data acces, then you probably need to spend some time by filling your persistence data to stress test it. Here is where FoxFaker comes to the rescue.
 
