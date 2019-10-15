@@ -36,7 +36,7 @@
 ## Installation
 
 ```
-Just copy tha FoxFaker.prg and FactoryBase.txt files anywhere into your project path folder.
+Just copy the FoxFaker.prg and FactoryBase.txt files anywhere into your project path folder.
 ```
 
 ## Basic Usage
