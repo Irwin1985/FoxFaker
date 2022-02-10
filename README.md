@@ -4,6 +4,10 @@
 
 `FoxFaker` is a Visual FoxPro Class library that generates fake data for you. If your're working using n-tier architecture, MVC, or any other technique where you isolate business logic and data acces, then you probably need to spend some time by filling your persistence data to stress test it. Here is where FoxFaker comes to the rescue.
 
+Si te gusta mi trabajo puedes apoyarme con un donativo:   
+[![DONATE!](http://www.pngall.com/wp-content/uploads/2016/05/PayPal-Donate-Button-PNG-File-180x100.png)](https://www.paypal.com/donate/?hosted_button_id=LXQYXFP77AD2G) 
+
+    Gracias por tu apoyo!
 
 `FoxFaker` was written with the purpose to be used with [FoxUnit](https://github.com/VFPX/FoxUnit) and [FoxMock](https://github.com/cwollenhaupt/foxmock) libraries. If you're not familiar with TDD (Test Driven Development) then you probably need to learn about it or just ignore it and use `FoxFaker` as you wish.
 
